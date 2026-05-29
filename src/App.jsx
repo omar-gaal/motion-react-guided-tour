@@ -4,6 +4,7 @@ import RevealDetailsCard from "./components/RevealDetailsCard";
 import SpringTransitionCard from "./components/SpringTransitionCard";
 import PressableButton from "./components/PressableButton";
 import DraggableCard from "./components/DraggableCard";
+import SwipeDecisionCard from "./components/SwipeDecisionCard";
 import "./App.css";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <SpringTransitionCard />
         <PressableButton />
         <DraggableCard />
+        <SwipeDecisionCard />
       </section>
     </main>
   );
